@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Мой сайт заболеваний</title>
+  <style>
+    body{
+      margin:0;
+      font-family:Inter,Arial,sans-serif;
+      color:white;
+      background:#000;
+      overflow-x:hidden;
+    }
+    /* Переливающийся градиент */
+    .gradient-bg{
+      min-height:100vh;
+      background:linear-gradient(120deg,#ff4d6d,#6a9eff,#7cffc4,#ffb86c);
+      background-size:300% 300%;
+      animation:flow 12s ease infinite;
+      padding:25px;
+    }
+    @keyframes flow{
+      0%{background-position:0% 50%;}
+      50%{background-position:100% 50%;}
+      100%{background-position:0% 50%;}
+    }.container{max-width:900px;margin:auto}
+
+h1{
+  margin-top:0;
+  font-size:2rem;
+  font-weight:700;
+  text-align:center;
+  margin-bottom:25px;
+}
+
+.disease{
+  background:rgba(255,255,255,0.12);
+  backdrop-filter:blur(12px);
+  padding:20px;
+  border-radius:16px;
+  margin-bottom:18px;
+  border:1px solid rgba(255,255,255,0.15);
+}
+
+.disease h2{margin:0 0 6px 0;font-size:1.4rem}
+.link{color:#fff;text-decoration:underline;font-size:0.95rem}
+.tiktok{
+  display:block;
+  margin-bottom:25px;
+  text-align:center;
+  font-size:1.1rem;
+  font-weight:600;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 16px;
+  background:rgba(255,255,255,0.18);
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,0.25);
+  backdrop-filter:blur(8px);
+}
+
+  </style>
+</head>
+<body>
+<div class="gradient-bg">
+  <div class="container"><!-- Ссылка на TikTok сверху -->
+<a class="tiktok" href="https://tiktok.com/@makspidor0" target="_blank">
+  Мой TikTok аккаунт 🤟
+</a>
+
+<h1>Мои заболевания</h1>
+
+<!-- Карточка 1 — Пиши своё название, ссылка в коде -->
+<div class="disease">
+  <h2>Мизантропия</h2>
+  <a class="link" href="https://ru.wikipedia.org/wiki/Мизантропия" target="_blank">Ссылка на Википедию</a>
+</div>
+
+<!-- Карточка 2 -->
+<div class="disease">
+  <h2>2 личность</h2>
+  <a class="link" href="
+https://ru.wikipedia.org/wiki/Диссоциативное_расстройство_идентичности
+
+" target="_blank">Ссылка на Википедию</a>
+</div>
+
+<!-- Карточка 3 -->
+<div class="disease">
+  <h2>эпилепсия</h2>
+  <a class="link" href="
+https://ru.wikipedia.org/wiki/Эпилепсия" target="_blank">Ссылка на Википедию</a>
+</div>
+
+<!-- Карточка 4 -->
+<div class="disease">
+  <h2>нарциссизм</h2>
+  <a class="link" href=" https://ru.wikipedia.org/wiki/Нарциссизм" target="_blank">Ссылка на Википедию</a>
+</div>
+
+  </div>
+</div>
+</body>
+</html>
